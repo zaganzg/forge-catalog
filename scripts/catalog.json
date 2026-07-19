@@ -75,6 +75,71 @@
       "sha256": "42ebf19718464a0e2412e05dd05c941e25921af993377dc9706ecff24b82baee",
       "sizeBytes": 477,
       "source": "github.com/ElunaLuaEngine/Scripts"
+    },
+    {
+      "id": "level-up-reward",
+      "name": "Level-Up Reward",
+      "fileName": "LevelUpReward.lua",
+      "author": "55Honey & Ragundah",
+      "category": "Progression",
+      "description": "Mails players a reward — gold and/or items — when they reach configured level milestones, with an optional 'you were the Nth adventurer to reach level X' counter mail.",
+      "setup": "Rewards, mail texts and the sender NPC are all configured in the tables at the top of the file (default mails are themed for ChromieCraft — reword them for your server).",
+      "url": "https://raw.githubusercontent.com/55Honey/Acore_LevelUpReward/1e46b7fdd3c59548fc90d05f2541deee9ee4cf50/LevelUpReward.lua",
+      "sha256": "ddd036384bb20a1c47fb4f18fa477f778febff52c8707895c01a32e9fe06c884",
+      "sizeBytes": 10231,
+      "source": "github.com/55Honey/Acore_LevelUpReward"
+    },
+    {
+      "id": "recruit-a-friend",
+      "name": "Recruit a Friend",
+      "fileName": "RecruitAFriend.lua",
+      "author": "55Honey",
+      "category": "Progression",
+      "description": "Standalone Recruit-a-Friend: linked recruits level with permanent rested XP, the recruiter can summon them (.raf summon) and gets mailed rewards when a recruit reaches the target level. Includes same-IP abuse checks.",
+      "setup": "A GM (rank 3) links accounts with .bindraf <recruitAccountId> <recruiterAccountId>; players type .raf for help. Target level, rewards and anti-abuse options are at the top of the file.",
+      "url": "https://raw.githubusercontent.com/55Honey/Acore_RecruitAFriend/d72b80577c05737efb28306cae817f342ecbcf01/RecruitAFriend.lua",
+      "sha256": "84f14a4fdd1ff4c670faa5dc597b1ed14c086a64e809144b0b171f4218ebf3f1",
+      "sizeBytes": 34032,
+      "source": "github.com/55Honey/Acore_RecruitAFriend"
+    },
+    {
+      "id": "send-and-bind",
+      "name": "Send & Bind",
+      "fileName": "Acore_SendAndBind.lua",
+      "author": "55Honey",
+      "category": "Administration",
+      "description": "GM mail command that sends an item to a player and makes it arrive already soulbound — built for webshops, so Bind-on-Equip stock can't be traded on.",
+      "setup": "GM rank 2+ · syntax: .senditemandbind <characterGuid> <itemEntry> <amount> [mail text]. Writes a send-and-bind.log next to the script.",
+      "url": "https://raw.githubusercontent.com/55Honey/Acore_SendAndBind/cacdf16664c00920b962935fabe21b0c6354bf4b/Acore_SendAndBind.lua",
+      "sha256": "0aae2d7816ebf1542179983b761535c43880f28a4ce66629f316a66dcba9e4f5",
+      "sizeBytes": 5572,
+      "source": "github.com/55Honey/Acore_SendAndBind"
+    },
+    {
+      "id": "temp-announcements",
+      "name": "Timed Announcements",
+      "fileName": "TempAnnouncements.lua",
+      "author": "55Honey",
+      "category": "Announcements",
+      "description": "Schedule repeating server-wide announcements from chat or console: every N minutes, X times. Scheduled announcements are stored in their own database table and survive restarts.",
+      "setup": "GM rank 2+ · .tannounce <minutes> <repetitions> <text> to create, .tannounce list and .tannounce delete <id> to manage.",
+      "url": "https://raw.githubusercontent.com/55Honey/Acore_TempAnnouncements/a07f3a7d9b1215f9d330e8564ccfe526f693be8b/TempAnnouncements.lua",
+      "sha256": "ce8f4f2094847b6ab8733abd52efa3a45063457a29b7b0e3242739f194d22b06",
+      "sizeBytes": 8621,
+      "source": "github.com/55Honey/Acore_TempAnnouncements"
+    },
+    {
+      "id": "summon-all",
+      "name": "Summon All",
+      "fileName": "summonall.lua",
+      "author": "55Honey",
+      "category": "Convenience",
+      "description": "Adds a .summonall chat command: a group member summons their whole party or raid to where they stand. No GM rank needed — a quality-of-life command for everyone.",
+      "setup": "Allowed continents are configured at the top of the file (all four are enabled by default). The summoner must be in a party or raid and out of combat.",
+      "url": "https://raw.githubusercontent.com/55Honey/Acore_Summonall/2b4c65dd5351d3bac5ded5eef41beeb6ddd54a9b/summonall.lua",
+      "sha256": "8e64d2f3e077dd8fc7395884ab594f3ce434ad2a3026a89869e3666b0a7ca984",
+      "sizeBytes": 1659,
+      "source": "github.com/55Honey/Acore_Summonall"
     }
   ]
 }
