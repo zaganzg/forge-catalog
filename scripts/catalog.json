@@ -1,0 +1,80 @@
+{
+  "kind": "forge-script-catalog",
+  "scripts": [
+    {
+      "id": "world-message-broadcaster",
+      "name": "World Message Broadcaster",
+      "fileName": "WorldMessageBroadcaster.lua",
+      "author": "ElunaLuaEngine community",
+      "category": "Announcements",
+      "description": "Broadcasts server-wide messages on a schedule: every N seconds, or weekly at a fixed day and time.",
+      "setup": "Edit the Register table at the top of the file to write your own messages (Open folder → edit → Reload Eluna).",
+      "url": "https://raw.githubusercontent.com/ElunaLuaEngine/Scripts/fe808b329b94fba11d23cf58d592ef6e0795f86e/Custom/World%20Message%20Broadcaster.lua",
+      "sha256": "1b3445cc87c1f8157433925793d159cd1db4b148798e439ec0499c8d50405634",
+      "sizeBytes": 1648,
+      "source": "github.com/ElunaLuaEngine/Scripts"
+    },
+    {
+      "id": "dynamic-teleporter",
+      "name": "Dynamic Teleporter",
+      "fileName": "DynamicTeleporter.lua",
+      "author": "ElunaLuaEngine community",
+      "category": "NPC services",
+      "description": "Turns an NPC into a teleporter with faction-aware gossip menus: Horde/Alliance cities, Outland, Northrend and PvP arenas, ready to use.",
+      "setup": "Set UnitEntry at the top of the file to the creature entry of the NPC that should offer the menu, then reload.",
+      "url": "https://raw.githubusercontent.com/ElunaLuaEngine/Scripts/fe808b329b94fba11d23cf58d592ef6e0795f86e/Custom/Dynamic%20teleporter.lua",
+      "sha256": "46c74d434e0210c5f70edb483b305e0c50324268fa1bbc6a01cc32fca3027099",
+      "sizeBytes": 3584,
+      "source": "github.com/ElunaLuaEngine/Scripts"
+    },
+    {
+      "id": "weapon-enchant-visuals",
+      "name": "Weapon Enchant Visuals",
+      "fileName": "WeaponVisuals.lua",
+      "author": "Rochet2",
+      "category": "Fun",
+      "description": "25% of looted weapons get a random enchant glow. Purely visual, fully automatic — it manages its own table in the characters database and real enchants always win.",
+      "url": "https://raw.githubusercontent.com/ElunaLuaEngine/Scripts/fe808b329b94fba11d23cf58d592ef6e0795f86e/Custom/Weapon%20visuals.lua",
+      "sha256": "e3f3df5208ee54a660232f9853b76c976fe6462f6b6c69375db07721e80de83b",
+      "sizeBytes": 3497,
+      "source": "github.com/ElunaLuaEngine/Scripts"
+    },
+    {
+      "id": "transmogrifier",
+      "name": "Transmogrifier",
+      "fileName": "Transmogrifier.lua",
+      "author": "Rochet2",
+      "category": "NPC services",
+      "description": "The classic transmogrification NPC: change how equipped gear looks while keeping its stats, via a gossip menu. Stores its data in its own characters-database table.",
+      "setup": "Spawn (or repurpose) a creature with entry 60000 to be the Transmogrifier, or edit NPC_Entry at the top of the file.",
+      "url": "https://raw.githubusercontent.com/ElunaLuaEngine/Scripts/fe808b329b94fba11d23cf58d592ef6e0795f86e/Custom/Transmogrifier.lua",
+      "sha256": "cbe9526eba6c43ca27a150226e84b622f5094543a3b90e1d41635a39883044c7",
+      "sizeBytes": 23214,
+      "source": "github.com/ElunaLuaEngine/Scripts"
+    },
+    {
+      "id": "run-eluna-command",
+      "name": "Run Eluna Command",
+      "fileName": "RunElunaCommand.lua",
+      "author": "ElunaLuaEngine community",
+      "category": "Development",
+      "description": "Adds a GM-only chat command (.eluna <lua>) that runs Lua on the live server — great for testing your own scripts. Requires GM rank 3.",
+      "url": "https://raw.githubusercontent.com/ElunaLuaEngine/Scripts/fe808b329b94fba11d23cf58d592ef6e0795f86e/Extensions/RunElunaCommand.lua",
+      "sha256": "85d5008675ae1f2228a5d1779a48102c92bcf346a319838a0b7fa715c4e6371d",
+      "sizeBytes": 2083,
+      "source": "github.com/ElunaLuaEngine/Scripts"
+    },
+    {
+      "id": "gm-login-announcer",
+      "name": "GM Login Announcer",
+      "fileName": "GMLog.lua",
+      "author": "ElunaLuaEngine community",
+      "category": "Announcements",
+      "description": "Announces to the whole server when a GM (rank 2+) logs in or out.",
+      "url": "https://raw.githubusercontent.com/ElunaLuaEngine/Scripts/fe808b329b94fba11d23cf58d592ef6e0795f86e/Example%20Scripts/Custom/GM-log.lua",
+      "sha256": "42ebf19718464a0e2412e05dd05c941e25921af993377dc9706ecff24b82baee",
+      "sizeBytes": 477,
+      "source": "github.com/ElunaLuaEngine/Scripts"
+    }
+  ]
+}
